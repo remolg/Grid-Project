@@ -50,6 +50,8 @@ p {
     color: #212121;
 }
 
+/* Computer Start */
+
 .container {
     margin: 0 auto;
     width: 1110px;
@@ -303,3 +305,130 @@ p {
     grid-template-columns: 1fr 1fr 1fr 1fr;
     margin-left: auto;
 }
+
+/* Computer End */
+/* Mobile Start */
+
+@media screen and (max-width: 600px) {
+
+    .container {
+        margin: 0 auto;
+        width: 345px;
+    }
+
+    .navbar {
+        grid-template-columns: 1fr 1fr;
+        margin-bottom: 10px;
+    }
+
+    .navbar ul {
+        display: none;
+    }
+
+    .navbar-icons {
+        margin-left: auto;
+        gap: 0;
+    }
+
+    .header h3 {
+        width: 310px;
+        font-size: 20px;
+        line-height: 28px;
+        letter-spacing: -0.2px;
+        margin-bottom: 14px;
+    }
+
+    .header-grid {
+        margin-bottom: 14px;
+    }
+
+    .header-grid-left {
+        align-items: center;
+    }
+
+    .header-grid-left p {
+        font-size: 10px;
+        line-height: 28px;
+    }
+
+    .header-grid-right {
+        gap: 0px;
+    }
+
+    .promotion {
+        margin-bottom: 25px;
+    }
+
+    .information-section {
+        grid-template-columns: 1fr;
+        gap: 10px;
+        margin-bottom: 14px;
+    }
+
+    .personal-word {
+        padding: 20px 20px;
+        border-radius: 5px;
+        margin-bottom: 14px;
+    }
+
+    .personal-word h4 {
+        font-size: 15px;
+        line-height: 16px;
+        letter-spacing: -0.25px;
+    }
+
+    .personal-word h6 {
+        font-size: 15px;
+        line-height: 10px;
+    }
+
+    .video-section {
+        margin-bottom: 14px;
+    }
+
+    .suggested-section {
+        margin-bottom: 14px;
+    }
+
+    .suggested-section h4 {
+        margin-bottom: 14px;
+    }
+
+    .suggested-cards {
+        grid-template-columns: 1fr;
+        gap: 14px;
+    }
+
+    .footer {
+        margin: 50px 0;
+        grid-template-columns: 1fr;
+        gap: 14px;
+    }
+
+    .footer-links {
+        grid-template-columns: 2fr 2fr;
+    }
+
+    .footer-mail-input input {
+        padding: 12px 151px 12px 16px;
+    }
+
+    .footer-mail-input img {
+        left: 282px;
+        bottom: 48px;
+    }
+
+    .footer-icon {
+        grid-template-columns: 4fr 4fr;
+    }
+
+    .footer-icon p {
+        display: none;
+    }
+
+    .footer-icon-links {
+        gap: 14px;
+    }
+}
+
+/* Mobile End */
